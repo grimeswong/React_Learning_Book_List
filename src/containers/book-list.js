@@ -41,7 +41,7 @@ function mapStateToProps(state) { // the connection of React and Redux
 function mapDispatchToProps(dispatch) {
   // Whenever selectBook is called the result should be passed
   // to all of our reducers
-  return bindActionCreators({ selectBook: selectBook }, dispatch);
+  return bindActionCreators({ selectBook: selectBook }, dispatch);  // bind the action creator and dispatcher together
 }
 
 // Promote BookList from a component to a container - it needs to know
