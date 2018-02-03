@@ -36,7 +36,7 @@ function mapStateToProps(state) { // the connection of React and Redux
 
 }
 
-// Anything returned from this fucntion will end up as props
+// Anything returned from this function will end up as props
 // on the Booklist container
 function mapDispatchToProps(dispatch) {
   // Whenever selectBook is called the result should be passed
